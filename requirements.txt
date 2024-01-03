@@ -1,0 +1,11 @@
+networkx==2.5
+pandas~=2.1.2
+numpy
+scipy
+matplotlib==3.3.4
+seaborn
+nltk~=3.8.1
+notebook
+fuzzywuzzy
+python-Levenshtein
+flair~=0.13.0
