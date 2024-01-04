@@ -95,6 +95,6 @@ De même que précédemment, un fichier **my_submission.csv** sera généré que
 # Auteurs
 
 - **Michel Marie LAMAH**, étudiant M2 IA, CERI, Université d'Avignon
-- **Aïda DIEDHIOU**, étudiante M2 SICOM, CERI, Université d'Avignon
+- **Aïda Fatou Madjidiene DIEDHIOU**, étudiante M2 SICOM, CERI, Université d'Avignon
 
 N'hésitez pas à contribuer en soumettant des problèmes ou des demandes de fonctionnalités.
