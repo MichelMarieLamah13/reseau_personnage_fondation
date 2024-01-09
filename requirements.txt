@@ -9,3 +9,4 @@ notebook
 fuzzywuzzy
 python-Levenshtein
 flair~=0.13.0
+PyPDF2

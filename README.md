@@ -56,9 +56,14 @@ Par la suite, il faut installer toutes les librairies présentent dans le fichie
 
 Vu que nous avons généré assez de fichiers pour éviter de saturer notre projet, nous avons décidé de les mettre sur un drive dont les liens sont indiqués ci-dessous:
 
+## Corpus evaluation
+
 - **Repertoire data**: [data](https://drive.google.com/drive/folders/1-4Mvf-ghSVSUkTe-kpzzoEr1PCuFDVwc?usp=sharing)
 - **Répertoire baseline**: [baseline](https://drive.google.com/drive/folders/19e7xp-Imk33jzo7fxd4r5xw90RMxfusT?usp=sharing)
 - **Répertoire best**: [best](https://drive.google.com/drive/folders/13yCr00ALAIB0PKUhqjVHYM21kxo-rlEC?usp=sharing)
+
+## Corpus entraînement
+- **Repertoire train**:
 
 Une fois téléchargées, mettez ces répertoires à la racine du projet, de sorte à avoir la structure ci-dessous:
 
@@ -75,18 +80,27 @@ Vous trouverez ainsi tout le contenu du projet à l'adresse:
 http://127.0.0.1:8888/tree
 
 # Approche automatique
-## Régénérer tous les résultats
+## Entraînement
+### Régénérer tous les résultats
+Le code permettant de reproduire des résultats de l’approche automatique se trouve dans le fichier train.ipynb, il vous suffit d'exécuter toutes les cellules et vous verrez les graphes ainsi que les statistiques de centralités mais aussi les communautés. 
+Toutefois, celà prendra assez de temps approximativement **37 minutes** pour voir tous les résultats, vous pouvez faire celà une seule fois si vous voulez.
+
+### Consulter juste les résultats
+Si toutefois, vous ne voulez que voire les résultats, pouvez juste exécuter le fichier **train_results.ipynb**, où j’ai déjà enlevé les lignes qui effectuent la génération des résultats, pour juste laisser la partie qui concerne les résultats, celà est possible parcequ’on avait stocké les résultats de chaque partie dans des fichiers séparés pour une réutilisabilité.
+
+## Evaluation
+### Régénérer tous les résultats
 Le code permettant de reproduire des résultats de l’approche automatique se trouve dans le fichier baseline.ipynb, il vous suffit d'exécuter toutes les cellules et vous verrez les graphes ainsi que les statistiques de centralités mais aussi les communautés. 
 Toutefois, celà prendra assez de temps approximativement **22 minutes** pour voir tous les résultats, vous pouvez faire celà une seule fois si vous voulez.
 
 Ce code générera aussi un fichier **my_submission.csv** qui contient les graphes que vous pourrez soumettre sur le kaggle pour voir les performances.
 
-## Consulter juste les résultats
+### Consulter juste les résultats
 
 Si toutefois, vous ne voulez que voire les résultats, pouvez juste exécuter le fichier **baseline_results.ipynb**, où j’ai déjà enlevé les lignes qui effectuent la génération des résultats, pour juste laisser la partie qui concerne les résultats, celà est possible parcequ’on avait stocké les résultats de chaque partie dans des fichiers séparés pour une réutilisabilité.
 
 # Approche manuelle
-
+## Evaluation
 Le code permettant de reproduire les résultats de l’approche manuelle se trouve dans le fichier best.ipynb, il vous suffit d’exécuter toutes les cellules pour voir tous les résultats.
 
 De même que précédemment, un fichier **my_submission.csv** sera généré que vous pourrez soumettre à la compétition sur kaggle pour voir les performances.
