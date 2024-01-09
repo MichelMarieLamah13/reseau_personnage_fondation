@@ -63,7 +63,7 @@ Vu que nous avons généré assez de fichiers pour éviter de saturer notre proj
 - **Répertoire best**: [best](https://drive.google.com/drive/folders/13yCr00ALAIB0PKUhqjVHYM21kxo-rlEC?usp=sharing)
 
 ## Corpus entraînement
-- **Repertoire train**:
+- **Repertoire train**: [train](https://drive.google.com/drive/folders/1mMGJSYUhc2Z47yfSIyRwtBVYBbau3djI?usp=sharing)
 
 Une fois téléchargées, mettez ces répertoires à la racine du projet, de sorte à avoir la structure ci-dessous:
 
